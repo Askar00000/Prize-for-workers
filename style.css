@@ -1,0 +1,46 @@
+body {
+    background-color: #f0f4f8; /* Светло-синий фон */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #0055ff; /* Синий цвет заголовков */
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button.login {
+    background-color: #007bff; /* Синий цвет для кнопки входа */
+}
+
+button.register {
+    background-color: #28a745; /* Зелёный цвет для кнопки регистрации */
+}
+
+button.open-case {
+    background-color: #ff3333; /* Красный цвет для открытия кейса */
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.inventory-item {
+    border: 1px solid #007bff;
+    background-color: #e0f7fa;
+    color: #007bff;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
